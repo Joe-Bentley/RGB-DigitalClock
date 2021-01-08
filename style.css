@@ -19,7 +19,7 @@
     background: linear-gradient(135deg, #14ff14, #ffeb3b, #ff0022);
     border-radius: 10px;
     cursor: default;
-    animation: animate 1.5s linear infinite;
+    animation: animate 2.5s linear infinite;
   }
   .wrapper .display,
   .wrapper span{
@@ -45,7 +45,18 @@
     background: linear-gradient(135deg, #14ff14, #ffeb3b, #ff0022);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animate 1.5s linear infinite;
+    animation: animate 2.5s linear infinite;
+  }
+  #day{
+    line-height: 85px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #14ff14, #ffeb3b, #ff0022);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2.5s linear infinite;
   }
   @keyframes animate {
     100%{

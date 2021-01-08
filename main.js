@@ -1,6 +1,8 @@
 setInterval(()=>{
     const time = document.querySelector(".display #time");
+    const day = document.querySelector(".display #day");
     let date = new Date();
+    let shortDate = date.toDateString()
     let hours = date.getHours();
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
@@ -19,4 +21,5 @@ setInterval(()=>{
       hours = "0" + hours;
     }
     time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+    day.textContent = shortDate;
   });
