@@ -28,6 +28,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  header h1 {
+    position: relative;
+    color: #fff;
+  }
   .wrapper .display{
     z-index: 999;
     height: 85px;
